@@ -1,0 +1,70 @@
+/* border：框線樣式 */
+
+$color-default: black;
+
+// 可產出響應式的樣式
+@mixin genResponsiveBorder($breakWord: '') {
+	// 不顯示框線
+	.border-#{$breakWord}none {
+		border: none;
+	}
+}
+
+
+// 基本框線
+.border-white {
+	border: 1px solid white;
+}
+.border-black {
+	border: 1px solid black;
+}
+
+// 四邊分別顯示框線
+.border-top {
+	border-top: 1px solid $color-default;
+}
+.border-right {
+	border-right: 1px solid $color-default;
+}
+.border-bottom {
+	border-bottom: 1px solid $color-default;
+}
+.border-left {
+	border-left: 1px solid $color-default;
+}
+
+// 四邊分別不顯示框線
+.border-top-none {
+	border-top: none;
+}
+.border-right-none {
+	border-right: none;
+}
+.border-bottom-none {
+	border-bottom: none;
+}
+.border-left-none {
+	border-left: none;
+}
+
+
+// 建立需要響應式的樣式
+// 桌機
+@include genResponsiveBorder;
+// 平板
+@include pad {
+	@include genResponsiveBorder($class-md);
+}
+// 手機
+@include mobile {
+	@include genResponsiveBorder($class-sm);
+}
+
+
+// border color
+.border-color-white {
+	border-color: white;
+}
+.border-color-dark-200 {
+	border-color: $color-dark-200;
+}

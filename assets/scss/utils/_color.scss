@@ -1,0 +1,37 @@
+/*
+	color：
+	所有與顏色相關的 utility 設定都集中在這邊。
+	
+	除了：
+	1. 陰影的顏色，因為陰影的語法無法將顏色分開撰寫。
+	2. 框線的顏色，直接在 _border.scss 中定義。
+*/
+
+// 主題所有顏色
+$theme-colors: (
+	// 主色
+	"primary": $color-primary,
+	"primary-dark": $color-primary-dark,
+	"primary-light": $color-primary-light,
+	
+	// 灰階
+	"dark-200": $color-dark-200,
+	"dark-500": $color-dark-500,
+	"dark": $color-dark,
+	
+	// 白
+	"white": $color-white,
+);
+
+// 產出各種顏色設定
+@each $key, $value in $theme-colors {
+	// 背景
+	.bg-#{$key} {
+		background-color: $value;
+	}
+	
+	// 文字
+	.color-#{$key} {
+		color: $value;
+	}
+}

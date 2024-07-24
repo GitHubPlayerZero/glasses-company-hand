@@ -1,0 +1,73 @@
+/* 其它 utility */
+
+// 可產出響應式的 utility
+@mixin genResponsiveUtility($breakWord: '') {
+	// display
+	.d-#{$breakWord}flex {
+		display: flex;
+	}
+	.d-#{$breakWord}block {
+		display: block;
+	}
+	.d-#{$breakWord}none {
+		display: none;
+	}
+	
+	// width
+	.w-#{$breakWord}100 {
+		width: 100%;
+	}
+	.w-#{$breakWord}24px {
+		width: 24px;
+	}
+}
+
+
+// width
+.w-50 {
+	width: 50%;
+}
+.w-48px {
+	width: 48px;
+}
+.w-80px {
+	width: 80px;
+}
+.w-100px {
+	width: 100px;
+}
+
+// height
+.h-100 {
+	height: 100%;
+}
+.h-136px {
+	height: 136px;
+}
+.h-205px {
+	height: 205px;
+}
+.h-240px {
+	height: 240px;
+}
+.h-511px {
+	height: 511px;
+}
+
+// resize
+.resize-none {
+	resize: none;
+}
+
+
+// 建立需要響應式的 utility
+// 桌機
+@include genResponsiveUtility;
+// 平板
+@include pad {
+	@include genResponsiveUtility($class-md);
+}
+// 手機
+@include mobile {
+	@include genResponsiveUtility($class-sm);
+}

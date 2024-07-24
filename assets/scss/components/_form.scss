@@ -1,0 +1,17 @@
+/* form：表單相關樣式 */
+
+.input {
+	width: 100%;
+	background-color: transparent;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 6px 12px;
+	border: 1px solid black;
+}
+
+.checkbox {
+	accent-color: $color-primary;
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+}

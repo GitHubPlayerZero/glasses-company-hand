@@ -1,0 +1,68 @@
+/*
+	text：
+	有關文字的設定，如字體大小、粗體、斜體... 等。
+	
+	但是，這邊不包括：
+	1. 字型，字型定義在 _base.scss。
+	2. 文字的顏色，顏色統一定義在 _color.scss。
+*/
+
+// 字體大小
+$sizes: 14, 16, 20, 24, 36, 48, 64;
+
+@mixin genFontSize($breakWord: '') {
+	@each $s in $sizes {
+		.fs-#{$breakWord}#{$s} {
+			font-size: #{$s}px;
+		}
+	}
+}
+
+// 桌機
+@include genFontSize;
+
+// 平板
+@include pad {
+	@include genFontSize($class-md);
+}
+
+// 手機
+@include mobile {
+	@include genFontSize($class-sm);
+}
+
+
+// 可產出響應式的樣式
+// @mixin genResponsiveText($breakWord: '') {
+	
+// }
+
+
+// text-align
+.text-align-left {
+	text-align: left;
+}
+.text-align-center {
+	text-align: center;
+}
+.text-align-right {
+	text-align: right;
+}
+
+// font-weight
+.font-weight-medium {
+	font-weight: 500;
+}
+.font-weight-bold {
+	font-weight: bold;
+}
+.font-weight-black {
+	font-weight: 900;
+}
+
+
+// font-style
+.font-style-italic {
+	font-style: italic;
+}
+

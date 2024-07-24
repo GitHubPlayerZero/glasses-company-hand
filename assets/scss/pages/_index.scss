@@ -1,0 +1,88 @@
+/* for index page */
+
+// banner 背景圖
+.banner-bg {
+	background-image: url('../images/home-header.png');
+	background-size: cover;
+	
+	@include pad {
+		background-image: url('../images/home-header-md-sm.png');
+	}
+}
+
+
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+	@include mobile {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
+	&-title {
+		color: $color-primary-dark;
+		font-weight: bold;
+		font-size: 48px;
+		text-align: center;
+		margin-bottom: 48px;
+		
+		@include mobile {
+			font-size: 24px;
+			margin-bottom: 24px;
+		}
+	}
+}
+
+
+.category {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	color: $color-primary;
+	font-size: 48px;
+	text-align: center;
+}
+
+
+// 聯名設計鏡框背景圖
+.co-branded-bg {
+	background-image: url('../images/index-bg.png');
+	background-size: cover;
+	
+	@include pad {
+		background-image: url('../images/index-bg-sm.png');
+	}
+	@include mobile {
+		background-image: url('../images/index-bg-sm.png');
+	}
+}
+
+
+.card-customer {
+	height: 205px;
+	padding: 16px;
+	
+	// flex
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	// border
+	border: 1px solid $color-dark-200;
+	border-radius: 4px;
+	border-radius: 0 0 4px 4px;
+	
+	// shadow
+	box-shadow: 0 2px 6px $color-dark-a-29;
+	
+	&-header {
+		font-weight: 500;
+		margin-bottom: 8px;
+	}
+	
+	&-footer {
+		font-size: 14px;
+		color: $color-dark-500;
+	}
+}

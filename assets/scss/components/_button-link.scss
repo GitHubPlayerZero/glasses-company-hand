@@ -1,0 +1,23 @@
+/* button-link：按鈕、連結相關元件 */
+
+// 連結 - 垂直擴展範圍
+.link-grown-v {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+
+.btn-primary {
+	display: inline-block;
+	background-color: $color-primary;
+	color: $color-white;
+	border: none;
+	padding: 0;
+	
+	&-hover:hover {
+		background-color: $color-primary-dark;
+		opacity: 1;
+	}
+}
+

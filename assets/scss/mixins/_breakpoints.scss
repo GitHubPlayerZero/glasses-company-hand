@@ -1,0 +1,15 @@
+// 斷點 (桌機優先)
+
+// 平板：768px ~ 991px
+@mixin pad {
+	@media (max-width: 991px) {
+		@content;
+	}
+}
+
+// 手機：767px 以下 (含)
+@mixin mobile {
+	@media (max-width: 767px) {
+		@content;
+	}
+}

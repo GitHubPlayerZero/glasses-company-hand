@@ -1,0 +1,40 @@
+/* 格線系統 */
+
+// 產出各裝置斷點相對應的格線設定
+// $colNum：格線欄數量
+// $breakWord：斷點字樣
+@mixin genGrid($colNum, $breakWord: '') {
+	// @debug '$breakWord = #{$breakWord}';	// 使用插值可以在字串中放入變數值，有點像 JS 樣板字面值的概念
+	@for $i from 1 through $colNum {
+		.col-#{$breakWord}#{$i} {
+			width: calc($i / $colNum) * 100%;
+		}
+	}
+}
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: $gutter-half-negative;
+	margin-right: $gutter-half-negative;
+	
+	// .row 會為所有子層元素加上左右 padding，因此下一層只能放 .col
+	> * {
+		padding-left: $gutter-half;
+		padding-right: $gutter-half;
+	}
+}
+
+// 桌機
+@include genGrid(12);
+
+// 平板
+@include pad {
+	@include genGrid(12, $class-md);
+}
+
+// 手機
+@include mobile {
+	@include genGrid(4, $class-sm);
+}

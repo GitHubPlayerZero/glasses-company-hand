@@ -1,0 +1,51 @@
+/* base：此專案所需要的全站樣式 */
+
+body {
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5;
+}
+
+// 連結
+a:hover {
+	opacity: 0.7;
+}
+
+// 按鈕
+button, input[type=button], input[type=submit] {
+	cursor: pointer;
+	
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+
+// 字型
+.font-noto-sans {
+	font-family: "Noto Sans TC", sans-serif;
+}
+.font-roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+
+// Container
+.container {
+	max-width: 1320px;
+	
+	// Gutter on outside
+	padding-left: $gutter-half;
+	padding-right: $gutter-half;
+	
+	// 水平置中
+	margin-left: auto;
+	margin-right: auto;
+	
+	@include pad {
+		max-width: 720px;
+	}
+	
+	@include mobile {
+		max-width: 372px;
+	}
+}

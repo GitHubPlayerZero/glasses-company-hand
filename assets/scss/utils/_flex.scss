@@ -1,0 +1,66 @@
+/* flex 相關設定 */
+
+// 產出各種 flex 設定，可做成響應式。
+@mixin genFlex($breakWord: '')
+{
+	.flex-direction-#{$breakWord}row {
+		flex-direction: row;
+	}
+	.flex-direction-#{$breakWord}row-reverse {
+		flex-direction: row-reverse;
+	}
+	.flex-direction-#{$breakWord}column {
+		flex-direction: column;
+	}
+	.flex-direction-#{$breakWord}column-reverse {
+		flex-direction: column-reverse;
+	}
+	
+	.justify-content-#{$breakWord}start {
+		justify-content: flex-start;
+	}
+	.justify-content-#{$breakWord}center {
+		justify-content: center;
+	}
+	.justify-content-#{$breakWord}end {
+		justify-content: flex-end;
+	}
+	.justify-content-#{$breakWord}between {
+		justify-content: space-between;
+	}
+	.justify-content-#{$breakWord}around {
+		justify-content: space-around;
+	}
+	.justify-content-#{$breakWord}evenly {
+		justify-content: space-evenly;
+	}
+	
+	.align-items-#{$breakWord}start {
+		align-items: flex-start;
+	}
+	.align-items-#{$breakWord}center {
+		align-items: center;
+	}
+	.align-items-#{$breakWord}end {
+		align-items: flex-end;
+	}
+}
+
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+
+// 桌機
+@include genFlex;
+
+// 平板
+@include pad {
+	@include genFlex($class-md);
+}
+
+// 手機
+@include mobile {
+	@include genFlex($class-sm);
+}

@@ -1,0 +1,29 @@
+$isDebug: false;	// Debug 模式
+
+
+// 格線系統
+$gutter: 24px;
+$gutter-half: calc($gutter / 2);
+$gutter-half-negative: $gutter-half * -1;
+
+
+// 用於產生 class 的斷點字樣
+$class-md: 'md-';
+$class-sm: 'sm-';
+
+
+// 顏色
+// 紅 (主色)
+$color-primary: #AA0601;	// rgba(170, 6, 1, 1)
+$color-primary-dark: #650300;	// rgba(101, 3, 0, 1)
+$color-primary-light: #FBF2F2;	// rgba(251, 242, 242, 1)
+
+// 灰階
+$color-dark-200: #DEE2E6;	// rgba(222, 226, 230, 1)
+$color-dark-500: #707070;	// rgba(112, 112, 112, 1)
+$color-dark: #000;
+$color-dark-a-29: #00000029;	// rgba(0, 0, 0, 0.16)
+
+// 白
+$color-white: #fff;
+
