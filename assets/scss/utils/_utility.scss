@@ -20,10 +20,24 @@
 	.w-#{$breakWord}24px {
 		width: 24px;
 	}
+	.w-#{$breakWord}276px {
+		width: 276px;
+	}
+	
+	// height
+	.h-#{$breakWord}414px {
+		height: 414px;
+	}
+	.h-#{$breakWord}208px {
+		height: 208px;
+	}
 }
 
 
 // width
+.w-fit-content {
+	width: fit-content;
+}
 .w-50 {
 	width: 50%;
 }
@@ -35,6 +49,9 @@
 }
 .w-100px {
 	width: 100px;
+}
+.w-304px {
+	width: 304px;
 }
 
 // height

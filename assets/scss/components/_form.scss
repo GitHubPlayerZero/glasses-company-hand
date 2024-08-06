@@ -1,17 +1,31 @@
-/* form：表單相關樣式 */
+/* form：表單元素相關樣式 */
 
 .input {
 	width: 100%;
 	background-color: transparent;
-	font-family: inherit;
-	font-size: 16px;
 	padding: 6px 12px;
 	border: 1px solid black;
 }
+
 
 .checkbox {
 	accent-color: $color-primary;
 	width: 18px;
 	height: 18px;
 	margin: 3px;
+}
+
+
+.dropdown-menu {
+	border: 1px solid $color-dark-300;
+	color: $color-dark-700;
+	font-size: 18px;
+	height: 38px;
+	padding: 0 12px;
+	
+	// 下拉選單箭頭
+	appearance: none;	// 移除原生樣式
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' class='outline'%3e%3cpolygon points='7,10 17,10 12,15' fill='black'%3e%3c/polygon%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 12px) center;
 }

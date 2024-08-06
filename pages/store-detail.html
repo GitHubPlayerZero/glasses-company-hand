@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>眼鏡世界 - 門市</title>
+
+	<%- include('./layout/link-resource'); -%>
+</head>
+
+<body>
+
+	<%- include('./layout/header'); -%>
+	
+	<main class="container mt-24 mt-md-20 mt-sm-10 mb-20 mb-sm-16">
+		
+		<h2 class="title-primary mb-8 mb-sm-6">門市據點</h2>
+		
+		<label class="d-flex align-items-center mb-10 mb-sm-6">
+			<span class="fs-24 fs-sm-16 mr-4 mr-sm-2">選擇分店</span>
+			
+			<select class="dropdown-menu w-304px w-sm-276px">
+				<option value="">台北中山旗艦店</option>
+				<option value="台北市">台北綠園店</option>
+			</select>
+		</label>
+		
+		<div class="row">
+			
+			<!-- Card -->
+			<section class="card-store col-5 col-md-12 mb-md-6">
+				<article class="row">
+					
+					<img src="../assets/images/store-1.png" alt="台北中山旗艦店" loading="lazy" 
+						class="card-store-img col-12 col-md-6 col-sm-4">
+					
+					<div class="col-12 col-md-6 col-sm-4">
+						<h3 class="card-store-header">台北中山旗艦店</h3>
+						<ul class="card-store-body">
+							<li class="card-store-list">
+								<span class="material-symbols-outlined">call</span>
+								<a href="tel:+886-2-0001234">電話：(02)000-1234</a>
+							</li>
+							<li class="card-store-list">
+								<span class="material-symbols-outlined">schedule</span>
+								<span>營業時間：10:00-21:00</span>
+							</li>
+							<li class="card-store-list">
+								<span class="material-symbols-outlined">location_on</span>
+								<span>地址：台北市中山區南京東路25巷2-1號</span>
+							</li>
+						</ul>
+					</div>
+					
+				</article>
+			</section>
+			
+			<!-- 地圖 -->
+			<iframe
+				class="col-7 col-md-12 h-md-414px h-sm-208px"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d963.8195479733935!2d121.53722530303423!3d25.052453365719643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abdf92494d29%3A0xd908a8a881f73476!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyNeiZnw!5e0!3m2!1szh-TW!2stw!4v1722935770140!5m2!1szh-TW!2stw"
+				style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
+		</div>
+		
+			
+	</main>
+	
+	<%- include('./layout/footer'); -%>
+
+	<script type="module" src="../main.js"></script>
+</body>
+
+</html>

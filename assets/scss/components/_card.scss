@@ -1,0 +1,52 @@
+/* card：卡片元件 */
+
+// 門市
+.card-store {
+	color: $color-dark-800;
+	
+	&-img {
+		height: 224px;
+		object-fit: cover;
+		
+		@include pad {
+			object-fit: fill;
+		}
+	}
+	
+	&-header {
+		padding: 8px 24px;
+		font-size: 24px;
+	}
+	
+	&-body {
+		padding: 16px 24px;
+		font-size: 20px;
+		
+		display: flex;
+		flex-direction: column;
+		row-gap: 8px;
+	}
+	
+	&-header, &-body {
+		border: 1px solid $color-dark-a-20;
+	}
+	
+	&-list {
+		display: flex;
+		column-gap: 8px;
+		
+		.material-symbols-outlined {
+			padding-top: 3px;
+		}
+	}
+	
+	&-btn {
+		background-color: black;
+		color: white;
+		font-size: 19px;
+		height: 59px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

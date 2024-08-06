@@ -1,2 +1,12 @@
 /* title：標題元件 */
 
+.title-primary {
+	font-size: 48px;
+	font-weight: bold;
+	padding-left: 16px;
+	border-left: 8px solid $color-primary;
+	
+	@include mobile {
+		font-size: 24px;
+	}
+}
