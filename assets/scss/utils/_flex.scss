@@ -51,6 +51,10 @@
 	flex-wrap: wrap;
 }
 
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
 
 // 桌機
 @include genFlex;

@@ -1,0 +1,49 @@
+/* for 產品頁的目錄菜單 */
+
+.product-category {
+	
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	
+	display: flex;
+	font-size: 32px;
+	
+	&-link {
+		border: 1px solid $color-dark-250;
+		// flex-grow: 1;	// 會因為內容多寡而造成大小不均
+		width: 33.334%;
+		
+		a {
+			display: flex;
+			justify-content: center;
+			padding-top: 24px;
+			padding-bottom: 16px;
+			
+			border-bottom: 8px solid transparent;
+			
+			@include pad {
+				padding-top: 16px;
+				padding-bottom: 8px;
+			}
+		}
+		
+		a:hover {
+			opacity: 1;
+			border-color: $color-primary-dark;
+		}
+		
+		a.active {
+			border-color: $color-primary;
+			pointer-events: none;
+		}
+	}
+	
+	
+	@include pad {
+		font-size: 24px;
+	}
+	
+	@include mobile {
+		font-size: 16px;
+	}
+}

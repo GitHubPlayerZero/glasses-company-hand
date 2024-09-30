@@ -91,6 +91,12 @@ $spacer: (
 }
 
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 // 桌機
 @include genSpacing;
 

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>眼鏡世界 - sunglasses</title>
+
+	<%- include('./layout/link-resource'); -%>
+</head>
+
+<body>
+
+	<%- include('./layout/header'); -%>
+	<%- include('./layout/product-category', {category: 'sunglasses'}); -%>
+	
+	<!-- 橫幅圖片 -->
+	<div class="d-flex h-296px h-sm-136px mb-20 mb-sm-10">
+		<picture class="w-50">
+			<source srcset="../assets/images/product-header-sm-3.png" media="(max-width: 991px)" />
+			<img src="../assets/images/product-header-3.png" alt="Product header picture 1" 
+				class="w-100 h-100 object-fit-cover" />
+		</picture>
+		<picture class="w-50">
+			<source srcset="../assets/images/product-header-sm-4.png" media="(max-width: 991px)" />
+			<img src="../assets/images/product-header-4.png" alt="Product header picture 2" 
+				class="w-100 h-100 object-fit-cover" />
+		</picture>
+	</div>
+	
+	
+	<!-- 產品 -->
+	<main class="container mb-20 mb-sm-16">
+		<h2 class="mb-8 mb-sm-6 text-align-center">
+			<div class="fs-42 fs-sm-24 font-roboto font-weight-medium">2020 NEW COLLECTION</div>
+			<div class="fs-32 fs-sm-24">賽璐珞鈦金屬混合鏡框</div>
+		</h2>
+		
+		<!-- 產品卡片 -->
+		<ul class="row row-gap-20 row-gap-md-10 row-gap-sm-6 mb-20 mb-sm-16" id="productArea">
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-7.png',
+						alt: '精美鏡框 1',
+						model: 'BJ41600S',
+						price: '3,490'
+					});
+				-%>
+			</li>
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-8.png',
+						alt: '精美鏡框 2',
+						model: 'BJ41605S',
+						price: '3,000'
+					});
+				-%>
+			</li>
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-9.png',
+						alt: '精美鏡框 3',
+						model: 'BJ41610S',
+						price: '4,100'
+					});
+				-%>
+			</li>
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-10.png',
+						alt: '精美鏡框 4',
+						model: 'BJ41615S',
+						price: '3,200'
+					});
+				-%>
+			</li>
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-11.png',
+						alt: '精美鏡框 5',
+						model: 'BJ41620S',
+						price: '3,490'
+					});
+				-%>
+			</li>
+			<li class="col-4 col-md-6 col-sm-4">
+				<%- include('./layout/product-card', {
+						pic: 'product-12.png',
+						alt: '精美鏡框 6',
+						model: 'BJ41625S',
+						price: '3,999'
+					});
+				-%>
+			</li>
+		</ul>
+		
+		<!-- 分頁 -->
+		<%- include('./layout/pagination'); -%>
+	</main>
+	
+	<%- include('./layout/footer'); -%>
+
+	
+	<script type="module" src="../main.js"></script>
+</body>
+
+</html>

@@ -12,11 +12,11 @@ $color-default: black;
 
 
 // 基本框線
+.border {
+	border: 1px solid $color-default;
+}
 .border-white {
 	border: 1px solid white;
-}
-.border-black {
-	border: 1px solid black;
 }
 
 // 四邊分別顯示框線

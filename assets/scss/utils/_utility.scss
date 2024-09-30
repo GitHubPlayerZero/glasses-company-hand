@@ -25,11 +25,14 @@
 	}
 	
 	// height
-	.h-#{$breakWord}414px {
-		height: 414px;
+	.h-#{$breakWord}136px {
+		height: 136px;
 	}
 	.h-#{$breakWord}208px {
 		height: 208px;
+	}
+	.h-#{$breakWord}414px {
+		height: 414px;
 	}
 }
 
@@ -58,14 +61,14 @@
 .h-100 {
 	height: 100%;
 }
-.h-136px {
-	height: 136px;
-}
 .h-205px {
 	height: 205px;
 }
 .h-240px {
 	height: 240px;
+}
+.h-296px {
+	height: 296px;
 }
 .h-511px {
 	height: 511px;
@@ -74,6 +77,11 @@
 // resize
 .resize-none {
 	resize: none;
+}
+
+// object-fit
+.object-fit-cover {
+	object-fit: cover;
 }
 
 

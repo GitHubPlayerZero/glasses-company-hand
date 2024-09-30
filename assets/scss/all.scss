@@ -10,10 +10,15 @@
 @import './components/title';
 @import './components/button-link';
 @import './components/form';
-@import './components/card';
+@import './components/shap';
+
+// Layout
+@import './layout/product-category';
+@import './layout/pagination';
 
 // Pages
 @import './pages/index';
+@import './pages/store';
 
 // Utilities
 @import './utils/color';

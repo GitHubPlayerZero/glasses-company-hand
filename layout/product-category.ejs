@@ -1,0 +1,32 @@
+<%
+let statusOptical = "";
+let statusSunglasses = "";
+let statusFunctional = "";
+
+switch (category) {
+	case 'optical':
+		statusOptical = "active";
+		break;
+	case 'sunglasses':
+		statusSunglasses = "active";
+		break;
+	case 'functional':
+		statusFunctional = "active";
+		break;
+}
+%>
+
+<div class="container">
+	<ul class="product-category">
+		<li class="product-category-link">
+			<a href="./product-optical.html" class="<%=statusOptical%>">OPTICAL</a>
+		</li>
+		<li class="product-category-link">
+			<a href="./product-sunglasses.html" class="<%=statusSunglasses%>">SUNGLASSES</a>
+		</li>
+		<li class="product-category-link">
+			<a href="javascript:void(0)" class="<%=statusFunctional%>">FUNCTIONAL</a>
+		</li>
+	</ul>
+	
+</div>
