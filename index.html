@@ -115,14 +115,14 @@
 				<!-- Category card -->
 				<ul class="row flex-direction-md-column align-items-md-center row-gap-6">
 					<li class="col-4 col-md-6 col-sm-4">
-						<a href="javascript:void(0);">
+						<a href="./product-optical.html">
 							<img src="/glasses-company-hand/assets/home-section3-1-9b7c63f8.png" alt="optical" class="mb-2">
 							<h3 class="category">OPTICAL</h3>
 						</a>
 					</li>
 
 					<li class="col-4 col-md-6 col-sm-4">
-						<a href="javascript:void(0);">
+						<a href="./product-sunglasses.html">
 							<img src="/glasses-company-hand/assets/home-section3-2-6b8869b5.png" alt="sunglasses" class="mb-2">
 							<h3 class="category">SUNGLASSES</h3>
 						</a>
@@ -239,35 +239,35 @@
 
 				<div class="row justify-content-center">
 					<p class="col-6 col-md-10 col-sm-4 fs-20 fs-md-16 mb-6">
-						我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+						我們相當重視您的意見，若您有任何疑問，可先參考「<a href="./faq.html">常見問題</a>」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
 					</p>
 				</div>
 
-				<form action="javascript:void(0);" class="row flex-direction-column align-items-center">
+				<form id="formComment" class="row flex-direction-column align-items-center">
 
 					<div class="col-6 col-md-10 col-sm-4">
 						<label class="d-block mb-4">
 							<span class="d-block mb-2">姓名</span>
-							<input type="text" placeholder="陳小明" class="input">
+							<input type="text" placeholder="陳小明" class="input" required>
 						</label>
 
 						<label class="d-block mb-4">
 							<span class="d-block mb-2">聯絡電話</span>
-							<input type="tel" placeholder="0912-345-678" class="input font-roboto">
+							<input type="tel" placeholder="0912-345-678" class="input font-roboto" required>
 						</label>
 
 						<label class="d-block mb-4">
 							<span class="d-block mb-2">電子郵件</span>
-							<input type="email" placeholder="example@email.com" class="input font-roboto">
+							<input type="email" placeholder="example@email.com" class="input font-roboto" required>
 						</label>
 
 						<label class="d-block mb-4">
 							<span class="d-block mb-2">意見反應</span>
-							<textarea placeholder="請輸入您的意見" class="input h-136px resize-none"></textarea>
+							<textarea placeholder="請輸入您的意見" class="input h-136px resize-none" required></textarea>
 						</label>
 
 						<label class="d-flex mb-12 mb-sm-6">
-							<input type="checkbox" class="checkbox">
+							<input type="checkbox" class="checkbox" required>
 							<span class="ml-1">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span>
 						</label>
 					</div>
@@ -335,6 +335,15 @@
 		
 	</div>	<!-- container end -->
 </footer>
+		
+		
+		<script>
+			// 聯絡我們
+			document.querySelector("#formComment").addEventListener("submit", event => {
+				event.preventDefault();
+				alert("感謝您的意見，我們會儘快回覆您！");
+			});
+		</script>
 
 		
 </body>
