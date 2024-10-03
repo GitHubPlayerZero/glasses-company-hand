@@ -16,12 +16,17 @@ $spacer: (
 	10: 10 * $base,	// 40px
 	11: 11 * $base,	// 44px
 	12: 12 * $base,	// 48px
+	15: 15 * $base,	// 60px
 	16: 16 * $base,	// 64px
 	20: 20 * $base,	// 80px
 	24: 24 * $base,	// 96px
+	31: 31 * $base,	// 124px
 	36: 36 * $base,	// 144px
 	74: 74 * $base,	// 296px
+	2px: 2px,
+	5px: 5px,
 	6px: 6px,
+	13px: 13px,
 );
 
 // 產出各種間距

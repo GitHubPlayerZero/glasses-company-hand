@@ -8,7 +8,7 @@
 */
 
 // 字體大小
-$sizes: 14, 16, 20, 24, 32, 36, 42, 48, 64;
+$sizes: 14, 16, 19, 20, 24, 29, 32, 36, 38, 42, 48, 64;
 
 @mixin genFontSize($breakWord: '') {
 	@each $s in $sizes {

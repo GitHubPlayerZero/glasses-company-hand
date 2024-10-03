@@ -1,4 +1,4 @@
-$isDebug: true;	// Debug 模式
+$isDebug: false;	// Debug 模式
 
 
 // 格線系統
@@ -30,10 +30,10 @@ $color-dark-500: #707070;	// rgba(112, 112, 112, 1)
 $color-dark-600: #555555;	// rgba(85, 85, 85, 1)
 $color-dark-700: #495057;	// rgba(73, 80, 87, 1)
 $color-dark-800: #212529;	// rgba(33, 37, 41, 1)
+$color-dark-900: #0A0A0A;	// rgba(10, 10, 10, 1)
 $color-dark: #000;
 $color-dark-a-20: #00000020;	// rgba(0, 0, 0, 0.13)
 $color-dark-a-29: #00000029;	// rgba(0, 0, 0, 0.16)
 
 // 白
 $color-white: #fff;
-

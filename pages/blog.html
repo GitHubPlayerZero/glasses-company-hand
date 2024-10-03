@@ -13,10 +13,167 @@
 
 	<%- include('./layout/header'); -%>
 	
+	<div class="d-sm-none">
+		<%- include('./layout/blog-head-menu'); -%>
+	</div>
+	
 	<main class="container mt-24 mt-md-20 mt-sm-10 mb-20 mb-sm-16">
 		
 		<h2 class="title-primary mb-8 mb-sm-6">部落格</h2>
 		
+		<!-- 文章們 -->
+		<div class="mb-31 mb-md-20 mb-sm-16">
+			
+			<article class="row mb-15 mb-md-6">
+				<img src="../assets/images/blog-1.png" alt="情人特別企劃" class="col-6 col-sm-4 mb-sm-2 object-fit-cover h-md-208px">
+				
+				<!-- 情人特別企劃 -->
+				<div class="col-6 col-sm-4 d-flex flex-direction-column justify-content-between">
+					<div>
+						<!-- 標題 -->
+						<div class="mb-4 mb-md-1 mb-sm-0 d-flex justify-content-between">
+							<h3>
+								<!-- 手機版為連結 -->
+								<a href="./blog-special.html" class="d-none d-sm-block">
+									<span class="fs-32 fs-md-24 color-primary-dark">情人特別企劃</span>
+								</a>
+								
+								<!-- 桌機、平板為普通標題 -->
+								<div class="d-sm-none">
+									<span class="fs-32 fs-md-24 color-primary-dark">情人特別企劃</span>
+								</div>
+								
+								<span class="fs-20 fs-md-16 font-roboto font-weight-medium">2020 Valentine’s Special</span>
+							</h3>
+							
+							<time datetime="2020-02-14" class="font-roboto font-weight-medium align-self-end">2020/02/14</time>
+						</div>
+						
+						<!-- 內容 -->
+						<p class="content">
+							一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！<br class="d-md-none">
+							即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯
+							<a href="./blog-special.html" class="more">⋯⋯more</a>
+						</p>
+					</div>
+					
+					<a href="./blog-special.html" class="d-md-none align-self-end color-primary-dark fs-36 font-roboto font-weight-black">MORE</a>
+				</div>
+			</article>
+			
+			<!-- 街頭潮人訪問 -->
+			<article class="row mb-15 mb-md-6">
+				<img src="../assets/images/blog-2.png" alt="街頭潮人訪問" class="col-6 col-sm-4 mb-sm-2 object-fit-cover h-md-208px">
+				
+				<div class="col-6 col-sm-4 d-flex flex-direction-column justify-content-between">
+					<div>
+						<!-- 標題 -->
+						<div class="mb-4 mb-md-1 mb-sm-0 d-flex justify-content-between">
+							<h3>
+								<span class="fs-32 fs-md-24 color-primary-dark">街頭潮人訪問</span><br>
+								<span class="fs-20 fs-md-16 font-roboto font-weight-medium">Street Interview</span>
+							</h3>
+							
+							<time datetime="2020-02-02" class="font-roboto font-weight-medium align-self-end">2020/02/02</time>
+						</div>
+						
+						<!-- 內容 -->
+						<p class="content">
+							炎熱的夏季裡，衣著選擇經常希望以簡潔的風格為主，但有時單純只穿搭 T 恤或短袖開襟襯衫，又覺得整體造型度有點不足嗎？那麼不妨可以透過「配件」，為穿搭點綴出與眾不同的視覺層次，而本季有哪些必備的配件系列呢？一起從以下推薦的 3 款單品，讓你瞬間帥氣爆棚散發型男品味⋯⋯
+							<a href="javascript:void(0);" class="more">⋯⋯more</a>
+						</p>
+					</div>
+					
+					<a href="javascript:void(0);" class="d-md-none align-self-end color-primary-dark fs-36 font-roboto font-weight-black">MORE</a>
+				</div>
+			</article>
+			
+			<!-- 春季新品上市 -->
+			<article class="row mb-15 mb-md-6">
+				<img src="../assets/images/blog-3.png" alt="春季新品上市" class="col-6 col-sm-4 mb-sm-2 object-fit-cover h-md-208px">
+				
+				<div class="col-6 col-sm-4 d-flex flex-direction-column justify-content-between">
+					<div>
+						<!-- 標題 -->
+						<div class="mb-4 mb-md-1 mb-sm-0 d-flex justify-content-between">
+							<h3>
+								<span class="fs-32 fs-md-24 color-primary-dark">春季新品上市</span><br>
+								<span class="fs-20 fs-md-16 font-roboto font-weight-medium">New Selection</span>
+							</h3>
+							
+							<time datetime="2020-02-02" class="font-roboto font-weight-medium align-self-end">2020/02/02</time>
+						</div>
+						
+						<!-- 內容 -->
+						<p class="content">
+							2020 年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+							<a href="javascript:void(0);" class="more">⋯⋯more</a>
+						</p>
+					</div>
+					
+					<a href="javascript:void(0);" class="d-md-none align-self-end color-primary-dark fs-36 font-roboto font-weight-black">MORE</a>
+				</div>
+			</article>
+			
+			<!-- 設計師獨享鏡框優惠 -->
+			<article class="row mb-15 mb-md-6">
+				<img src="../assets/images/blog-4.png" alt="設計師獨享鏡框優惠" class="col-6 col-sm-4 mb-sm-2 object-fit-cover h-md-208px">
+				
+				<div class="col-6 col-sm-4 d-flex flex-direction-column justify-content-between">
+					<div>
+						<!-- 標題 -->
+						<div class="mb-4 mb-md-1 mb-sm-0 d-flex justify-content-between">
+							<h3>
+								<span class="fs-32 fs-md-24 color-primary-dark">設計師獨享鏡框優惠</span><br>
+								<span class="fs-20 fs-md-16 font-roboto font-weight-medium">Sales for Designer</span>
+							</h3>
+							
+							<time datetime="2020-01-18" class="font-roboto font-weight-medium align-self-end">2020/01/18</time>
+						</div>
+						
+						<!-- 內容 -->
+						<p class="content">
+							2020 年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+							<a href="javascript:void(0);" class="more">⋯⋯more</a>
+						</p>
+					</div>
+					
+					<a href="javascript:void(0);" class="d-md-none align-self-end color-primary-dark fs-36 font-roboto font-weight-black">MORE</a>
+				</div>
+			</article>
+			
+			<!-- 抵抗夏日大作戰 -->
+			<article class="row mb-15 mb-md-6">
+				<img src="../assets/images/blog-5.png" alt="抵抗夏日大作戰" class="col-6 col-sm-4 mb-sm-2 object-fit-cover h-md-208px">
+				
+				<div class="col-6 col-sm-4 d-flex flex-direction-column justify-content-between">
+					<div>
+						<!-- 標題 -->
+						<div class="mb-4 mb-md-1 mb-sm-0 d-flex justify-content-between">
+							<h3>
+								<span class="fs-32 fs-md-24 color-primary-dark">抵抗夏日大作戰</span><br>
+								<span class="fs-20 fs-md-16 font-roboto font-weight-medium">Summer Special</span>
+							</h3>
+							
+							<time datetime="2019-08-07" class="font-roboto font-weight-medium align-self-end">2019/08/07</time>
+						</div>
+						
+						<!-- 內容 -->
+						<p class="content">
+							2020 年春季的光學眼鏡跳脫前幾季流行的復古框型，比起圓框與小方框等文青風格，偏向個性款式的眉框眼鏡成為這一季的耀眼之星。除了經典款式如黑色眉框落在長方形鏡面上，眉宇之間露出專業莊重的特殊氣質，包覆在圓形鏡框上的貓眼型眉框則是強調出特殊設計感，俐落時髦的造型搭配一件簡單的白襯衫就相當有型，是喜愛時尚質感人士絕不能錯過的必備款式⋯⋯
+							<a href="javascript:void(0);" class="more">⋯⋯more</a>
+						</p>
+					</div>
+					
+					<a href="javascript:void(0);" class="d-md-none align-self-end color-primary-dark fs-36 font-roboto font-weight-black">MORE</a>
+				</div>
+			</article>
+			
+			
+		</div>
+		
+		<!-- 分頁 -->
+		<%- include('./layout/pagination'); -%>
 	</main>
 	
 	<%- include('./layout/footer'); -%>

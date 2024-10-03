@@ -1,0 +1,39 @@
+/* for 部落格 */
+
+.content {
+	position: relative;
+	overflow: hidden;
+	font-size: 20px;
+	color: $color-dark-600;
+	
+	@include pad {
+		height: 144px;
+		font-size: 16px;
+	}
+	
+	@include mobile {
+		display: none;
+	}
+}
+
+.more {
+	display: none;
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+	padding-right: 7px;
+	padding-left: 30px;
+	background-image: linear-gradient(to left, rgb(255,255,255) 70%, rgb(255,255,255,0.5) 80%, transparent 100%);
+	
+	@include pad {
+		display: block;
+	}
+	
+	&:hover {
+		opacity: 1;
+		color: $color-primary-dark;
+		font-weight: bold;
+	}
+}

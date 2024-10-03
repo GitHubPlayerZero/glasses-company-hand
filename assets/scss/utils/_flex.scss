@@ -44,6 +44,16 @@
 	.align-items-#{$breakWord}end {
 		align-items: flex-end;
 	}
+	
+	.align-self-#{$breakWord}start {
+		align-self: flex-start;
+	}
+	.align-self-#{$breakWord}center {
+		align-self: center;
+	}
+	.align-self-#{$breakWord}end {
+		align-self: flex-end;
+	}
 }
 
 
