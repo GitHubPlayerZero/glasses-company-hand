@@ -6,7 +6,7 @@
 
 // Debug
 @if ($isDebug) {
-	div, ul, h1 {
+	div, ul {
 		outline-style: solid;
 	}
 }

@@ -4,7 +4,6 @@
 @import './reset';
 @import './reboot';
 @import './base';
-@import './grid';
 
 // Components
 @import './components/title';
@@ -22,6 +21,7 @@
 @import './pages/blog';
 
 // Utilities
+@import './utils/grid';
 @import './utils/color';
 @import './utils/text';
 @import './utils/spacing';
