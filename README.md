@@ -3,12 +3,9 @@
 [Website](https://githubplayerzero.github.io/glasses-company-hand/index.html)｜[設計稿](https://xd.adobe.com/view/5b20cbc4-5c64-4b67-814e-633b078a8cd4-0e73/flow/)
 
 ## 📌 特色
-### 主要特色
 - 以 SCSS 手刻格線系統、各種 utility class。
 - 使用 EJS 共用相同的佈局。
 - 專案環境使用 Vite。
-
-### 其它特色
 - 多頁式（8 頁）
 - 多欄式（Flex 排版）
 - RWD：桌機（優先）、平板、手機
@@ -46,16 +43,16 @@
 ## 🎬 Demo
 ### 桌機
 - 首頁
-
+[首頁_dt.webm](https://github.com/user-attachments/assets/e6df5f50-a66a-4a83-b4e3-ab92597521eb)
 
 - 系列鏡框
-
+[系列鏡框_dt.webm](https://github.com/user-attachments/assets/2bfbad6f-dfee-46ed-be74-d1fe7afc0c0b)
 
 - 門市據點
-
+[門市_dt.webm](https://github.com/user-attachments/assets/82c14487-4de3-41a7-b177-abd9ee0f7653)
 
 - 部落格
-
+[部落格_dt.webm](https://github.com/user-attachments/assets/6efea69f-21c4-4d39-b2bd-b1215148c4a4)
 
 ### 平板
 - 首頁
@@ -69,16 +66,16 @@
 
 ### 手機
 - 首頁
-
+[首頁_mobile.webm](https://github.com/user-attachments/assets/343ae79b-9adc-4e2d-b06c-b948179f0f94)
 
 - 系列鏡框
-
+[系列鏡框_mobile.webm](https://github.com/user-attachments/assets/708d23d9-90ae-4d02-9619-7a4bdb1647fb)
 
 - 門市據點
-
+[門市_mobile.webm](https://github.com/user-attachments/assets/3e956d92-fc15-4adb-b0b8-6c89578eeb32)
 
 - 部落格
-
+[部落格_mobile.webm](https://github.com/user-attachments/assets/f1777f60-d11e-492b-9bfc-26fdaad9a9f0)
 
 <br>
 
