@@ -44,38 +44,48 @@
 ### 桌機
 - 首頁
 
-[demo](https://github.com/user-attachments/assets/e6df5f50-a66a-4a83-b4e3-ab92597521eb)
+[首頁_dt.webm](https://github.com/user-attachments/assets/e6df5f50-a66a-4a83-b4e3-ab92597521eb)
 
 - 系列鏡框
+
 [系列鏡框_dt.webm](https://github.com/user-attachments/assets/2bfbad6f-dfee-46ed-be74-d1fe7afc0c0b)
 
 - 門市據點
+
 [門市_dt.webm](https://github.com/user-attachments/assets/82c14487-4de3-41a7-b177-abd9ee0f7653)
 
 - 部落格
+
 [部落格_dt.webm](https://github.com/user-attachments/assets/6efea69f-21c4-4d39-b2bd-b1215148c4a4)
 
 ### 平板
 - 首頁
 
+[首頁_pad.webm](https://github.com/user-attachments/assets/b5ab5b05-a9c6-406a-a0d0-c24fae3ab456)
 
 - 門市據點
 
+[門市_pad.webm](https://github.com/user-attachments/assets/85a51955-de5f-41de-9f49-ebd8f064880b)
 
 - 部落格
 
+[部落格_pad.webm](https://github.com/user-attachments/assets/7d2f2ae2-5103-4758-abe7-e439a1d3f570)
 
 ### 手機
 - 首頁
+
 [首頁_mobile.webm](https://github.com/user-attachments/assets/343ae79b-9adc-4e2d-b06c-b948179f0f94)
 
 - 系列鏡框
+
 [系列鏡框_mobile.webm](https://github.com/user-attachments/assets/708d23d9-90ae-4d02-9619-7a4bdb1647fb)
 
 - 門市據點
+
 [門市_mobile.webm](https://github.com/user-attachments/assets/3e956d92-fc15-4adb-b0b8-6c89578eeb32)
 
 - 部落格
+
 [部落格_mobile.webm](https://github.com/user-attachments/assets/f1777f60-d11e-492b-9bfc-26fdaad9a9f0)
 
 <br>
