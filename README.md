@@ -43,8 +43,8 @@
 ## 🎬 Demo
 ### 桌機
 - 首頁
+
 [demo](https://github.com/user-attachments/assets/e6df5f50-a66a-4a83-b4e3-ab92597521eb)
-[Demo](https://github.com/GitHubPlayerZero/web-layout-single-hand/assets/65072506/ea97f557-75d7-402d-bb1e-d3ac7b1872d9)
 
 - 系列鏡框
 [系列鏡框_dt.webm](https://github.com/user-attachments/assets/2bfbad6f-dfee-46ed-be74-d1fe7afc0c0b)
