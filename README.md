@@ -58,6 +58,8 @@
 
 [部落格_dt.webm](https://github.com/user-attachments/assets/6efea69f-21c4-4d39-b2bd-b1215148c4a4)
 
+<br>
+
 ### 平板
 - 首頁
 
@@ -70,6 +72,8 @@
 - 部落格
 
 [部落格_pad.webm](https://github.com/user-attachments/assets/7d2f2ae2-5103-4758-abe7-e439a1d3f570)
+
+<br>
 
 ### 手機
 - 首頁
