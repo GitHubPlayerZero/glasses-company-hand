@@ -1,0 +1,19 @@
+.container {
+	max-width: 1320px;
+	
+	// Gutter on outside
+	padding-left: $gutter-half;
+	padding-right: $gutter-half;
+	
+	// 水平置中
+	margin-left: auto;
+	margin-right: auto;
+	
+	@include pad {
+		max-width: 720px;
+	}
+	
+	@include mobile {
+		max-width: 372px;
+	}
+}

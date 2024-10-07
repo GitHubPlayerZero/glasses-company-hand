@@ -32,11 +32,16 @@ $sizes: 14, 16, 19, 20, 24, 29, 32, 36, 38, 42, 48, 64;
 }
 
 
-// 可產出響應式的樣式
-// @mixin genResponsiveText($breakWord: '') {
-	
-// }
-
+// 字型
+.font-noto-sans {
+	font-family: "Noto Sans TC", sans-serif;
+}
+.font-roboto {
+	font-family: "Roboto", sans-serif;
+}
+.font-mix {
+	font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
 
 // text-align
 .text-align-left {
